@@ -1,0 +1,130 @@
+.main-signup-content {
+  margin: 3rem 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 0;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem 0 var(--shadow3-color);
+  overflow: hidden;
+  max-width: 30%;
+  margin-left: 35%;
+  padding: 2rem 0rem;
+}
+
+.signup-heading {
+  font-size: 2rem;
+  font-weight: bolder;
+  color: var(--eigth-color);
+}
+
+.signup-subheading {
+  color: var(--forth-color);
+}
+
+.signup-inputs {
+  margin-left: -1.3rem;
+}
+.signup-inputs div {
+  margin: 1rem;
+}
+
+.email-input {
+  border: none;
+  padding: 0.4rem;
+  border-bottom: 2px solid;
+}
+
+.email-input::placeholder {
+  font-weight: bold;
+  color: var(--fifth-color);
+}
+
+.username-input {
+  border: none;
+  padding: 0.4rem;
+  border-bottom: 2px solid;
+}
+
+.username-input::placeholder {
+  font-weight: bold;
+  color: var(--fifth-color);
+}
+
+.FirstName-input {
+  border: none;
+  padding: 0.4rem;
+  border-bottom: 2px solid;
+}
+
+.FirstName-input::placeholder {
+  font-weight: bold;
+  color: var(--fifth-color);
+}
+
+.LastName-input {
+  border: none;
+  padding: 0.4rem;
+  border-bottom: 2px solid;
+}
+
+.LastName-input::placeholder {
+  font-weight: bold;
+  color: var(--fifth-color);
+}
+
+.password-input {
+  border: none;
+  padding: 0.4rem;
+  border-bottom: 2px solid;
+}
+
+.password-input::placeholder {
+  font-weight: bold;
+  color: var(--fifth-color);
+}
+
+.hide-show-icon {
+  margin-left: -1rem;
+}
+
+.confirm-password-input {
+  border: none;
+  padding: 0.4rem;
+  border-bottom: 2px solid;
+}
+
+.confirm-password-input::placeholder {
+  font-weight: bold;
+  color: var(--fifth-color);
+}
+
+.signup-page-btn {
+  background: var(--primary-color);
+  border-radius: 1.5rem;
+  border: none;
+  color: var(--eigth-color);
+  display: block;
+  padding: 0.5rem 0.8rem;
+  font-weight: bolder;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.signup-page-btn:hover {
+  background-color: var(--secondary-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: 0.2px var(--sixth-color) solid;
+}
+
+.last-signup-subheading a {
+  font-weight: bolder;
+  color: var(--fifth-color);
+}
+
+.last-signup-subheading a:hover {
+  color: var(--forth-color);
+}

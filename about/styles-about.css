@@ -1,0 +1,13 @@
+main {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem 30rem;
+}
+
+h1,
+p {
+  text-align: center;
+}

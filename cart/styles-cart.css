@@ -1,0 +1,252 @@
+main {
+  margin: 2rem 12rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cart-container {
+  margin: 2rem;
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+
+.main-content {
+  display: flex;
+  gap: 25px;
+}
+
+/* product card */
+.card-container {
+  background-color: var(--secondary-color);
+  padding: 1rem;
+  border-radius: 1.5rem;
+  display: flex;
+  width: 40rem;
+  height: 13rem;
+  box-shadow: 4px 8px 10px var(--shadow1-color);
+}
+
+.product-img {
+  height: 13rem;
+  border-radius: 0.5rem;
+  box-shadow: 3px 4px 5px var(--shadow2-color);
+}
+
+.card-content {
+  margin-left: 2rem;
+}
+
+.product-name {
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+.product-description {
+  padding-top: 0.3rem;
+  padding-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.price {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.strike-price {
+  text-decoration: line-through;
+  color: rgb(117, 117, 117);
+  font-weight: normal;
+}
+.product-discount {
+  color: var(--forth-color);
+}
+.button-link {
+  text-decoration: none;
+}
+
+.cart-wishlist-buttons-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 1.5rem;
+}
+.move-to-wishlist {
+  background: var(--eigth-color);
+  border-radius: 1.5rem;
+  border: none;
+  color: var(--ternary-color);
+  display: block;
+  padding: 0.5rem 1.5rem;
+  font-weight: bolder;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1rem;
+}
+
+.move-to-wishlist:hover {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: 0.2px var(--eigth-color) solid;
+}
+
+.add-to-cart {
+  color: var(--forth-color);
+  background-color: transparent;
+  border: 0.2px var(--ternary-color) solid;
+  border-radius: 1.5rem;
+  padding: 0.5rem 1.5rem;
+  font-weight: bolder;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1rem;
+}
+
+.add-to-cart:hover {
+  background: rgb(243, 243, 243);
+  -webkit-text-fill-color: var(--forth-color);
+}
+
+.card-container:hover {
+  transform: scale(1.02);
+}
+
+.quantity-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 1rem 0rem;
+}
+
+.quantity-heading {
+  color: var(--forth-color);
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+
+.quantity-btn {
+  font-size: 1rem;
+  background-color: var(--fifth-color);
+  border: 2px solid var(--fifth-color);
+  border-radius: 3rem;
+  color: var(--ternary-color);
+}
+
+.decrease-btn {
+  padding: 0rem 0.5rem 0.2rem 0.5rem;
+}
+
+.increase-btn {
+  padding: 0.1rem 0.4rem;
+}
+
+.quantity-btn:hover {
+  border: 2px solid var(--fifth-color);
+  background-color: transparent;
+  color: var(--fifth-color);
+}
+.quantity-value {
+  border: 1px solid var(--eleventh-color);
+  padding: 0.3rem 1.5rem;
+  border-radius: 0.4rem;
+  font-size: 1.2rem;
+}
+
+/* product billing */
+.product-billing {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.coupon-container {
+  background-color: var(--eigth-color);
+  width: 22rem;
+  padding: 0.8rem;
+  border-radius: 1.5rem;
+  font-size: 1.1rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.coupon {
+  color: var(--ternary-color);
+  font-weight: bolder;
+}
+
+.coupon-container:hover {
+  transform: scale(1.02);
+}
+
+/* product details  */
+.price-detail-card-container {
+  width: 22rem;
+  padding: 1rem;
+  background-color: var(--secondary-color);
+  border-radius: 1.5rem;
+  box-shadow: 4px 8px 10px var(--shadow1-color);
+}
+
+.price-detail-heading {
+  color: var(--eigth-color);
+  font-weight: bolder;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.price-detail-content-container {
+  margin: 1.5rem 0rem;
+}
+
+.price-detail-content {
+  display: flex;
+  align-items: center;
+  margin: 0.5rem 0rem;
+}
+.left-detail {
+  flex-grow: 1;
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+
+.total-amount-container {
+  margin: 0.8rem 0rem;
+}
+
+.total-amount {
+  font-size: 1.3rem;
+  font-weight: bolder;
+}
+
+.discount-price {
+  color: var(--forth-color);
+  font-weight: bolder;
+  margin: 0.8rem 0rem;
+}
+
+.primary-btn {
+  background-image: linear-gradient(
+    to right,
+    var(--gradient1-color),
+    var(--gradient2-color)
+  );
+  color: var(--ternary-color);
+  width: 22rem;
+  text-align: center;
+  font-weight: bolder;
+  border: none;
+}
+
+.center-aligned {
+  display: flex;
+  justify-content: center;
+}
+.primary-btn:hover {
+  transform: scale(1.03);
+}
+
+.button-design {
+  box-sizing: border-box;
+  padding: 0.5rem 0.5rem;
+  border-radius: 0.9rem;
+  margin: 1rem 0rem;
+}

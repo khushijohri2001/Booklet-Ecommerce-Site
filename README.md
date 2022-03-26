@@ -15,7 +15,7 @@ Live Link: [Booklet](https://booklet-ecom-official.netlify.app/)
 - Footer contains links to all the pages and my social media handles.
 
 
-## Demonstartion
+## Demonstration
 
 ### Home
 https://user-images.githubusercontent.com/65448358/160255054-ed30aabb-3bd0-43a3-850d-ea862af46a97.mp4

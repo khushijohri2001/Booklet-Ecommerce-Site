@@ -15,6 +15,13 @@ Live Link: [Booklet](https://booklet-ecom-official.netlify.app/)
 - Footer contains links to all the pages and my social media handles.
 
 
+## Instructions on How to Run your app locally
+- Open any code editor preferably VS Code.
+- In the terminal run this command git clone https://github.com/khushijohri2001/Booklet-Ecommerce-Site.git.
+- Go inside the application folder using cd Booklet-Ecommerce-Site.
+- Click on Go Live on status bar (bottom right on VS Code) for starting the application.
+
+
 ## Demonstration
 
 ### Home
